@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Konvoi Web (Chrome miftahmanic)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "web-server",
+      "toolArgs": [
+        "--web-port=8787",
+        "--web-hostname=127.0.0.1"
+      ],
+      "preLaunchTask": "Open Chrome miftahmanic (port 8787)"
+    }
+  ]
+}
